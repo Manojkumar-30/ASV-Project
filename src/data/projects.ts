@@ -1,0 +1,68 @@
+import type { ProjectCommunity } from '../types';
+
+export const MANAGED_PROJECTS: ProjectCommunity[] = [
+  {
+    id: 'godrej-united',
+    name: 'Godrej United',
+    location: 'Mahadevapura, Bengaluru',
+    corridor: 'Whitefield / Outer Ring Road',
+    image: '/src/assets/images/project_modern_towers_1795592750557.webp',
+    note: 'Independent unit management for residential homeowners.',
+  },
+  {
+    id: 'brigade-lakefront',
+    name: 'Brigade Lakefront',
+    location: 'Hoodi / Whitefield, Bengaluru',
+    corridor: 'EPIP Zone',
+    image: '/src/assets/images/project_courtyard_homes_1795592750225.webp',
+    note: 'Tenant placement, inspections, and ongoing home care.',
+  },
+  {
+    id: 'brigade-golden-triangle',
+    name: 'Brigade Golden Triangle',
+    location: 'Old Madras Road, Bengaluru',
+    corridor: 'East Bengaluru',
+    image: '/src/assets/images/about_bengaluru_residences_1795592749762.webp',
+    note: 'End-to-end rental coordination and interior readiness.',
+  },
+  {
+    id: 'brigade-cosmopolis',
+    name: 'Brigade Cosmopolis',
+    location: 'Whitefield, Bengaluru',
+    corridor: 'Whitefield Main Road',
+    image: '/src/assets/images/nri_editorial_living_1795592749819.webp',
+    note: 'NRI property oversight and periodic condition checks.',
+  },
+  {
+    id: 'prestige-tranquillity',
+    name: 'Prestige Tranquillity',
+    location: 'Budigere Cross, Bengaluru',
+    corridor: 'Old Madras Road Corridor',
+    image: '/src/assets/images/project_courtyard_homes_1795592750225.webp',
+    note: 'Long-term NRI tenant management & maintenance coordination.',
+  },
+  {
+    id: 'purva-palm-beach',
+    name: 'Purva Palm Beach',
+    location: 'Hennur Road, Bengaluru',
+    corridor: 'North Bengaluru',
+    image: '/src/assets/images/project_modern_towers_1795592750557.webp',
+    note: 'Rental administration and vendor supervision.',
+  },
+  {
+    id: 'godrej-air',
+    name: 'Godrej Air',
+    location: 'Hoodi, Bengaluru',
+    corridor: 'Whitefield',
+    image: '/src/assets/images/about_bengaluru_residences_1795592749762.webp',
+    note: 'Tenant screening, agreement execution, and upkeep.',
+  },
+  {
+    id: 'sobha-city',
+    name: 'Sobha City',
+    location: 'Thanisandra, Bengaluru',
+    corridor: 'North Bengaluru',
+    image: '/src/assets/images/hero_architecture_villa_1795592748862.webp',
+    note: 'Structured handover, inspections, and renewal management.',
+  },
+];

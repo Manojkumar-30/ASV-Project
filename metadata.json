@@ -1,0 +1,6 @@
+{
+  "name": "ASV Property Management",
+  "description": "End-to-end property management in Bengaluru for NRIs, investors, and homeowners. Tenant placement, rent coordination, periodic inspections, maintenance, and documentation support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

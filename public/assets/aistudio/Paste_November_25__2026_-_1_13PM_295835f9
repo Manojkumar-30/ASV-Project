@@ -1,0 +1,1649 @@
+# ASV PROPERTY MANAGEMENT — COMPLETE WEBSITE REDESIGN & DEVELOPMENT
+
+## 1. Your role
+
+Act as a highly experienced multidisciplinary product development team consisting of:
+
+- Senior UI/UX Designer
+- Creative Director
+- Brand Identity Designer
+- Senior Frontend Architect
+- Senior Full Stack Developer
+- Responsive Web Design Specialist
+- SEO Specialist
+- Performance Optimization Engineer
+- Accessibility Specialist
+- QA Automation Engineer
+- Conversion Rate Optimization Specialist
+
+Your responsibility is to completely redesign and develop the existing ASV Property Management website into a premium, modern, responsive, production-ready corporate website.
+
+Do not simply give me suggestions, explanations, wireframes or a development plan. Build the actual working application with a complete frontend, responsive components, navigation, interactions and supported backend integrations.
+
+## 2. Existing website and business references
+
+Existing website:
+
+https://asvpropertymanagement.com/
+
+Official YouTube channel:
+
+https://www.youtube.com/channel/UCAeG716AYl4M5QXXxsXWa2w
+
+YouTube Channel ID:
+
+`UCAeG716AYl4M5QXXxsXWa2w`
+
+I have also attached:
+
+- Original ASV Property Management logo.
+- Existing website screenshots.
+- Premium architectural website design reference.
+- Proposed ASV desktop and mobile design mockup.
+
+Analyze all the provided reference materials before implementing the website.
+
+Use the existing ASV website as the source of truth for business content, services, customer testimonials, properties, business processes, terms, charges and contact information.
+
+Use the architectural design reference as the primary visual inspiration.
+
+Use the proposed ASV desktop and mobile mockup to understand the desired responsive experience.
+
+Do not copy the reference company's branding, AI-related content or fictional metrics.
+
+If any source content cannot be accessed, clearly identify the missing information instead of inventing it.
+
+## 3. Primary project objective
+
+Transform ASV Property Management from an outdated traditional website into a sophisticated, premium architectural-style digital experience.
+
+The website should be:
+
+- Visually outstanding.
+- Modern and minimalist.
+- Premium and professional.
+- Extremely easy to understand.
+- Fully responsive.
+- Mobile-first.
+- Fast loading.
+- SEO optimized.
+- Accessible.
+- Conversion focused.
+- Trustworthy for international customers.
+- Easy to maintain.
+- Production ready.
+
+The primary target audiences are:
+
+- Non-Resident Indians (NRIs).
+- High Net Worth Individuals (HNIs).
+- Property investors.
+- Residential property owners.
+- Busy working professionals.
+- Overseas homeowners who own property in India.
+
+Within five seconds of visiting the homepage, a customer should understand:
+
+1. What ASV Property Management does.
+2. Where ASV operates.
+3. What services are available.
+4. How ASV helps NRIs manage properties remotely.
+5. Why they should consider ASV.
+6. How to contact the company.
+
+This is a property management website, not a property buying and selling marketplace.
+
+Do not turn the website into a property listing platform.
+
+## 4. Mandatory brand identity
+
+Retain the original ASV Property Management logo exactly as uploaded.
+
+Do not recreate, distort, recolour or replace the logo.
+
+Maintain the existing red, black and white corporate branding.
+
+Use the following design tokens as a starting point, adjusting the primary red to match the original logo if necessary:
+
+```css
+:root {
+  --brand-primary: #ED1C24;
+  --brand-primary-hover: #C81018;
+  --brand-black: #101010;
+  --brand-white: #FFFFFF;
+  --background-primary: #FFFFFF;
+  --background-secondary: #F7F7F7;
+  --background-tertiary: #F0F0F0;
+  --text-primary: #101010;
+  --text-secondary: #626262;
+  --text-muted: #858585;
+  --border-subtle: #E5E5E5;
+  --red-tint: #FFF1F1;
+}
+```
+
+Colour distribution:
+
+- 70% white and soft neutral backgrounds.
+- 20% black, charcoal and dark typography.
+- 10% ASV red accents.
+
+Do not use green, gold, purple, blue or unrelated brand gradients as primary theme colours.
+
+Use red selectively for important buttons, selected navigation states, highlights, icons and brand accents.
+
+## 5. Visual design direction
+
+Design style:
+
+**Premium Architectural Editorial Website**
+
+Take strong visual inspiration from the attached architectural website reference featuring:
+
+- Oversized editorial typography.
+- Contemporary architectural photography.
+- Architectural image composition.
+- Layered text and imagery.
+- Floating glassmorphism information cards.
+- Minimal pill-shaped navigation.
+- Soft neutral gradients.
+- Generous whitespace.
+- Premium modern residential buildings.
+- Clean, sophisticated visual hierarchy.
+- Subtle shadows.
+- Refined micro-interactions.
+- Asymmetric editorial layouts.
+
+The design should feel like a premium international architecture studio combined with a modern property management brand.
+
+Avoid:
+
+- Generic Bootstrap website designs.
+- Conventional real estate templates.
+- Excessive service cards.
+- Heavy borders.
+- Repetitive icon grids.
+- Huge rounded buttons everywhere.
+- Excessive gradients.
+- Overuse of shadows.
+- Unnecessary decorative elements.
+- Large paragraphs of text.
+- Outdated carousels.
+- Fake dashboards.
+- Artificial statistics.
+- Excessive animation.
+- Generic AI-generated website styling.
+
+Not every section should look identical. Create variety through editorial layouts, asymmetric compositions, image-led sections, bento grids and carefully designed typography.
+
+## 6. Typography system
+
+Use a premium modern sans-serif typeface.
+
+Recommended fonts:
+
+- Primary headings: Manrope or Plus Jakarta Sans.
+- Body: Inter.
+- Editorial accent text: a lighter or italic variation of the primary typeface.
+
+Desktop typography:
+
+- Hero heading: 76–110px where the composition supports it.
+- Main section headings: 44–60px.
+- Secondary headings: 28–36px.
+- Card headings: 20–24px.
+- Body text: 16–18px.
+- Navigation: 14–15px.
+- Section labels: 11–13px with letter spacing.
+
+Mobile typography:
+
+- Hero heading: 36–46px.
+- Main section headings: 30–36px.
+- Secondary headings: 24–28px.
+- Body text: 15–16px.
+- Buttons: 14–16px.
+
+Use responsive typography through CSS clamp().
+
+Use comfortable line heights and balanced letter spacing.
+
+Do not use uppercase for entire headlines or paragraphs.
+
+Headlines must remain readable across every screen size.
+
+## 7. Website information architecture
+
+Create the following pages and routes:
+
+- Home — `/`
+- About ASV — `/about`
+- Services — `/services`
+- NRI Property Management — `/nri-property-management`
+- How It Works — `/how-it-works`
+- Projects Under Management — `/projects`
+- Plans & Pricing — `/pricing`
+- Videos & Insights — `/insights`
+- Contact — `/contact`
+- Privacy Policy — `/privacy-policy`
+- Terms & Conditions — `/terms-and-conditions`
+
+Create reusable layouts and shared components.
+
+Keep the homepage comprehensive enough that customers do not have to visit every page to understand the business.
+
+Do not create empty pages or non-functional navigation links.
+
+## 8. Desktop navigation design
+
+Create a premium minimalist navigation bar inspired by the reference design.
+
+Desktop structure:
+
+Left:
+- Original ASV logo.
+
+Centre:
+- Floating pill-shaped navigation container.
+- Home.
+- Services.
+- How It Works.
+- Projects.
+- Insights.
+- About.
+
+Right:
+- Black or ASV red consultation button.
+- Arrow icon.
+
+The main CTA should say:
+
+**Get a Consultation**
+
+Include the following navigation behaviours:
+
+- Sticky navigation.
+- Transparent or soft white initial background.
+- Frosted glass background on scroll where supported.
+- Active page indicator using a red dot or subtle red underline.
+- Accessible services dropdown.
+- Smooth transitions.
+- Keyboard navigation.
+- Visible keyboard focus indicators.
+
+Place all remaining pages within appropriate dropdowns and footer navigation.
+
+Keep the navigation visually minimal.
+
+## 9. Mobile navigation design
+
+Create a completely optimized mobile navigation experience.
+
+Mobile header:
+
+- Original ASV logo on the left.
+- Minimal hamburger menu on the right.
+- Compact header height.
+
+When the hamburger menu opens:
+
+- Display a refined full-screen or slide-out menu.
+- Show all important navigation links.
+- Include consultation CTA.
+- Include contact information.
+- Include WhatsApp access.
+- Include close button.
+- Lock background scrolling.
+- Support keyboard focus management.
+- Close when a navigation item is selected.
+
+The mobile menu must feel premium, not like a basic HTML dropdown.
+
+## 10. Hero section — highest design priority
+
+This section is the most important part of the website.
+
+Follow the uploaded architectural reference as closely as possible in terms of composition, hierarchy, spacing and visual character.
+
+Create an immersive architectural hero rather than a standard two-column hero with a small rectangular image.
+
+Desktop visual composition:
+
+- Large, elegant typography in the upper-left and central area.
+- A premium contemporary residential building occupying the lower-right and central area.
+- Architecture integrated naturally into the background composition.
+- Layer text and architectural imagery where appropriate.
+- A soft white or light-grey atmospheric background.
+- Floating glass-effect information cards around the property.
+- Subtle realistic architectural lighting.
+- Minimal distractions.
+
+Use the following headline:
+
+**Your Property.**
+**Our Management.**
+**Your Peace of Mind.**
+
+The final line should use ASV red.
+
+Alternative editorial composition if it fits the reference better:
+
+**Your Property.**
+
+**Our Responsibility.**
+
+Use oversized typography without sacrificing readability.
+
+Supporting text:
+
+End-to-end property management in Bengaluru for NRIs, investors and homeowners. From finding the right tenants to maintaining your property, we take care of the details.
+
+Primary button:
+
+**Get a Free Consultation**
+
+Secondary button:
+
+**Watch How We Work**
+
+The secondary button should open an accessible video modal featuring a real ASV introduction video if available.
+
+If a verified introduction video is unavailable, use the official YouTube channel link instead.
+
+### Floating glass-effect cards
+
+Create two or three floating informational cards integrated into the hero image.
+
+Use meaningful business features such as:
+
+Card 1:
+
+**Tenant Management**
+
+Screening, agreements and coordination.
+
+Card 2:
+
+**Property Care**
+
+Periodic inspections and maintenance support.
+
+Card 3:
+
+**NRI Support**
+
+Local management while you are abroad.
+
+The cards should have:
+
+- Semi-transparent backgrounds.
+- Subtle backdrop blur.
+- Soft white borders.
+- Rounded corners between 16px and 24px.
+- Elegant red outline icons.
+- Minimal content.
+- Soft shadows.
+- Optional subtle floating movement.
+
+IMPORTANT:
+
+The provided design mockup includes illustrative figures such as 500+ properties and 98.4% asset health.
+
+Do not publish these figures unless they are verified by ASV.
+
+Replace fictional metrics with actual service benefits.
+
+### Hero photography
+
+Use a premium architectural image showing a modern residential building with:
+
+- Contemporary architecture.
+- Large windows.
+- Clean white or neutral surfaces.
+- Realistic landscaping.
+- Natural daylight.
+- Premium residential atmosphere.
+
+Prefer original or appropriately licensed ASV property images.
+
+If an AI-generated architectural image is used for the hero, treat it as illustrative imagery, not as a property managed by ASV.
+
+Do not place the entire website hero inside one static generated image. All headings, buttons, cards and navigation must be real responsive HTML components.
+
+## 11. Mobile hero section
+
+Create a separately optimized mobile composition.
+
+Mobile layout order:
+
+1. ASV logo and navigation.
+2. Small section label.
+3. Oversized headline.
+4. Short supporting description.
+5. Primary consultation button.
+6. Secondary video button.
+7. Large architectural image.
+8. One compact floating informational card.
+9. Service highlights.
+
+Mobile buttons should be full-width or appropriately sized.
+
+The architectural building must remain visually prominent.
+
+Do not crop important content or overlap text incorrectly.
+
+Hide unnecessary floating cards on smaller devices.
+
+Use an independently optimized mobile image crop when necessary.
+
+Do not shrink the desktop design proportionally.
+
+Mobile should look intentionally designed for smartphones.
+
+## 12. Trust and service highlights
+
+Immediately after the hero, add a clean horizontal feature strip.
+
+Include:
+
+- Verified Tenant Screening.
+- NRI Property Support.
+- End-to-End Management.
+- Dedicated Customer Support.
+
+Use thin red outline icons and short explanatory text.
+
+Desktop:
+
+Four items in a horizontal layout with subtle separators.
+
+Tablet:
+
+Two-column grid.
+
+Mobile:
+
+Two-column layout with sufficient space for readability.
+
+Avoid fake certification logos or fabricated trust badges.
+
+## 13. About ASV section
+
+Create an editorial split-layout section with premium residential photography.
+
+Section label:
+
+ABOUT ASV
+
+Heading:
+
+**A trusted property management partner in Bengaluru.**
+
+Content:
+
+Owning a property should not mean constantly worrying about tenants, repairs, rent collection or property inspections.
+
+ASV Property Management provides comprehensive local property management services designed to simplify ownership for NRIs, investors and homeowners.
+
+From the initial property inspection to tenant placement, maintenance and renewals, our team coordinates the everyday responsibilities of managing your property.
+
+Highlight:
+
+- Structured property management.
+- Local property support.
+- Transparent communication.
+- Professional tenant coordination.
+- Long-term service relationships.
+
+Include an Explore About ASV CTA.
+
+Use authentic company and property images wherever available.
+
+## 14. Core property management services
+
+The original website contains 12 important property management services.
+
+Preserve all of them.
+
+Original service content includes:
+
+1. List Your Property.
+2. Preliminary Inspection.
+3. Property Management Application.
+4. Annexure & Key Takeover.
+5. Property Marketing.
+6. Assured Tenant Placement.
+7. Tenant Due Diligence.
+8. Vendor Management.
+9. Agreement Signing.
+10. Tenant Management.
+11. Quarterly Inspection.
+12. Tenant Exit/Renewal.
+
+Do not remove any original service.
+
+Reorganize these into six primary service categories.
+
+### Service 01 — Property Onboarding
+
+Include:
+
+- Property registration.
+- Initial consultation.
+- Preliminary property inspection.
+- Property management application.
+- Annexure preparation.
+- Secure key takeover.
+
+Description:
+
+Start your property management journey with a structured assessment, documentation and handover process.
+
+### Service 02 — Tenant Placement
+
+Include:
+
+- Online and offline property marketing.
+- Tenant search.
+- Tenant screening.
+- Employment verification.
+- Document verification.
+- Tenant placement commitments subject to existing terms.
+
+Description:
+
+Find suitable tenants through structured property marketing and verification.
+
+### Service 03 — Rental & Tenant Management
+
+Include:
+
+- Rent collection coordination.
+- Deposit collection coordination.
+- Tenant communication.
+- Utility payment assistance.
+- Payment follow-ups.
+- Management of outstanding dues.
+
+Description:
+
+Simplify everyday rental responsibilities through organized tenant and payment management.
+
+### Service 04 — Maintenance & Vendor Management
+
+Include:
+
+- Vendor coordination.
+- Plumbing.
+- Electrical work.
+- Carpentry.
+- Repair requests.
+- Maintenance tracking.
+
+Description:
+
+Keep your property well maintained through professional service coordination.
+
+### Service 05 — Inspection & Reporting
+
+Include:
+
+- Quarterly property inspections.
+- Monthly reporting where applicable.
+- Property condition assessments.
+- Photographic reports.
+- Maintenance recommendations.
+
+Description:
+
+Stay informed about your property's condition, even when you are living overseas.
+
+### Service 06 — Agreements, Exit & Renewal
+
+Include:
+
+- Rental agreement coordination.
+- Tenant handover.
+- Lease renewal.
+- Tenant exit inspection.
+- Damage checks.
+- Outstanding bill checks.
+- Final settlement.
+- Tenant replacement coordination.
+
+Description:
+
+Manage important rental transitions through a structured process.
+
+### Services visual design
+
+Use a premium editorial bento-grid layout rather than 12 identical cards.
+
+Allow selected service cards to contain:
+
+- Architectural photography.
+- Large service numbers.
+- Minimal outline icons.
+- Short descriptions.
+- Learn More interaction.
+
+Create dedicated service detail sections or pages.
+
+Ensure every original service can be discovered without requiring complicated interactions.
+
+## 15. NRI property management section
+
+This should be one of the strongest sections of the website.
+
+Use an immersive editorial design with premium photography and generous whitespace.
+
+Section label:
+
+DESIGNED FOR NRI HOMEOWNERS
+
+Heading:
+
+**Miles away. Never disconnected from your property.**
+
+Supporting content:
+
+Living overseas should not make property ownership in India complicated.
+
+ASV helps NRIs manage their properties through local support, tenant coordination, maintenance assistance, inspections and structured communication.
+
+Highlight the following customer needs:
+
+- Managing properties remotely.
+- Finding and screening tenants.
+- Coordinating rent and deposits.
+- Property inspections with photographic updates.
+- Maintenance and repair coordination.
+- Rental documentation.
+- Tenant renewal and exit support.
+- Local assistance in Bengaluru.
+
+Include a CTA:
+
+**Explore NRI Property Management**
+
+Include an international customer enquiry option.
+
+Do not promise 24/7 service, guaranteed rental returns or instant emergency support unless confirmed by ASV.
+
+## 16. Customer profile section
+
+Preserve and modernize the existing customer profile content.
+
+Create two primary audience categories:
+
+### NRIs
+
+Headline:
+
+**Your home in India. Managed while you are abroad.**
+
+Explain remote property ownership support.
+
+### HNIs & Property Investors
+
+Headline:
+
+**Own the investment. Leave the management to us.**
+
+Explain professional management for property investors and owners.
+
+Optionally add a third category for busy homeowners, provided the service offering supports it.
+
+Use an asymmetric image-led design rather than basic stock-photo cards.
+
+## 17. How We Work section
+
+Remove the existing multicoloured hexagon workflow diagram.
+
+Replace it with a modern, elegant six-stage timeline.
+
+### Step 01 — Register Your Property
+
+- Share property details.
+- Discuss requirements.
+- Conduct preliminary inspection.
+
+### Step 02 — Documentation & Key Handover
+
+- Complete property management application.
+- Prepare property annexure.
+- Coordinate secure key takeover.
+
+### Step 03 — Marketing & Tenant Screening
+
+- Market the property.
+- Identify potential tenants.
+- Verify employment and documentation.
+
+### Step 04 — Agreement & Property Handover
+
+- Coordinate rental agreements.
+- Arrange deposit collection.
+- Complete tenant move-in.
+
+### Step 05 — Ongoing Property Management
+
+- Tenant management.
+- Rent collection coordination.
+- Vendor management.
+- Monthly reporting where applicable.
+- Quarterly inspections.
+
+### Step 06 — Renewal or Tenant Exit
+
+- Renewal coordination.
+- Exit inspection.
+- Damage assessment.
+- Outstanding bill checks.
+- Settlement and tenant replacement.
+
+Desktop design:
+
+- Horizontal timeline or numbered editorial grid.
+- Red connecting lines.
+- Minimal icons.
+- Expandable stage details.
+
+Mobile design:
+
+- Vertical timeline.
+- Left-aligned step indicators.
+- Expandable descriptions.
+- Clear spacing.
+
+Include a Terms & Charges link.
+
+## 18. Why Choose ASV section
+
+Create a premium black-background section with white typography and selective red accents.
+
+Heading:
+
+**Professional service. Personal attention.**
+
+Preserve the existing advantages:
+
+- Hassle-free service.
+- Tenant placement support.
+- Customer support.
+- Process-oriented management.
+- On-site assistance.
+- Flexible management services.
+
+Present these through a sophisticated asymmetric layout.
+
+Use large numbered benefits or clean editorial rows instead of repetitive boxed cards.
+
+If verified business statistics become available, they may be included here.
+
+Do not invent property counts, customer counts, success percentages, occupancy rates or years of experience.
+
+## 19. Value Added Services
+
+Preserve the existing value-added services.
+
+### Salesforce CRM
+
+Structured customer and property management workflows.
+
+### Ticket Management System
+
+Organized handling of property-related issues including plumbing, electrical work and carpentry.
+
+### Document Transfer & Assistance
+
+Support for:
+
+- Khata name transfer.
+- BESCOM-related documentation.
+- Annual property tax payment assistance.
+
+Use a modern three-feature editorial layout.
+
+Confirm that Salesforce and ticket management services are still operational before publishing operational claims.
+
+Do not create a fake Salesforce integration or customer dashboard.
+
+## 20. Projects Under Management
+
+Replace the outdated large single-image slideshow with a premium property portfolio.
+
+Use the actual property communities listed on the existing website.
+
+Examples from the existing content include:
+
+- Godrej United — Mahadevapura.
+- Brigade Lakefront — Hoodi.
+- Brigade Golden Triangle.
+- Brigade Cosmopolis.
+- Prestige Tranquility.
+- Purva Palm Beach.
+- Godrej Air.
+- Sobha City.
+
+Verify the actual portfolio and locations against ASV's existing content before publishing.
+
+Desktop design:
+
+- Large architectural photographs.
+- Asymmetric masonry or editorial grid.
+- Property community name.
+- Location.
+- Minimal image overlay.
+- Subtle image zoom interaction.
+- View All Projects CTA.
+
+Mobile design:
+
+- Full-width image cards.
+- Comfortable spacing.
+- No horizontal overflow.
+- Optional accessible swipe gallery.
+
+Important:
+
+This section showcases communities where ASV manages properties.
+
+It must not imply that ASV owns these developments or has official partnerships with builders unless verified.
+
+Do not display invented sale prices, bedroom counts, rental availability or property listings.
+
+## 21. Customer testimonials
+
+Preserve genuine testimonials from the existing website.
+
+Create a modern review section with:
+
+- Large quotation marks.
+- Readable testimonial text.
+- Customer name where permission exists.
+- Country of residence.
+- Property community where appropriate.
+- Optional genuine video testimonial.
+
+Section heading:
+
+**Trust that goes beyond borders.**
+
+Use an accessible manually controlled carousel or editorial testimonial cards.
+
+Do not create fictional customer reviews.
+
+Do not fabricate star ratings.
+
+Do not publicly display apartment numbers or private customer details without permission.
+
+Do not silently rewrite direct customer quotes in a way that changes their meaning.
+
+## 22. Automatic YouTube integration
+
+Integrate the official ASV YouTube channel.
+
+Channel URL:
+
+https://www.youtube.com/channel/UCAeG716AYl4M5QXXxsXWa2w
+
+Channel ID:
+
+`UCAeG716AYl4M5QXXxsXWa2w`
+
+Homepage section heading:
+
+**Property insights, tours & updates.**
+
+Automatically display the latest three public videos from the channel.
+
+Each video card should include:
+
+- Actual YouTube thumbnail.
+- Video title.
+- Published date.
+- Play button.
+- Link to original video.
+- Optional video duration if available.
+
+Create a dedicated Videos & Insights page displaying additional videos.
+
+### Technical implementation
+
+Use YouTube Data API v3 through a secure server-side integration.
+
+Retrieve the channel's uploads playlist and fetch published public videos using the supported playlist API.
+
+Requirements:
+
+- Keep the YouTube API key server-side.
+- Never expose the key in browser code.
+- Cache video metadata.
+- Refresh cached videos approximately every 60 minutes.
+- Sort by latest upload.
+- Handle API errors gracefully.
+- Retain the last successful cached response.
+- Provide pagination or Load More.
+- Handle empty channel content.
+- Handle videos with embedding disabled.
+
+Performance:
+
+- Do not load multiple YouTube iframe players on page load.
+- Initially render optimized thumbnails.
+- Create the video player only after a user clicks Play.
+- Use privacy-enhanced embedding where appropriate.
+- Do not autoplay background videos.
+- Provide a direct YouTube link as a fallback.
+
+If API credentials or server-side functionality are unavailable in the current development environment, implement a clearly identified integration adapter and configuration instructions.
+
+Do not fabricate videos or pretend that the live integration is working.
+
+## 23. Plans & Pricing
+
+Preserve the existing ASV terms and charges information.
+
+The existing website includes Basic, Premium and Advanced plans.
+
+Create a clean pricing comparison page showing:
+
+- Plan name.
+- Applicable charges.
+- Service duration.
+- Included services.
+- Exclusions.
+- Applicable taxes.
+- Payment terms.
+- Consultation CTA.
+
+Use actual verified pricing from the existing terms page.
+
+Preserve relevant conditions relating to:
+
+- Assured tenant placement.
+- Management duration.
+- Renewal.
+- Inspection frequency.
+- Service exclusions.
+- Cancellation.
+- Additional charges.
+
+Do not invent new pricing, discount offers or rental guarantees.
+
+Mark unverified pricing information as requiring business confirmation.
+
+## 24. Frequently asked questions
+
+Create an elegant accessible FAQ accordion.
+
+Suggested questions:
+
+- What is property management?
+- How does ASV help NRI property owners?
+- How do I register my property?
+- How are tenants screened?
+- How frequently is my property inspected?
+- How is rent collection coordinated?
+- Can ASV coordinate maintenance and repairs?
+- What happens when a tenant vacates?
+- What are the property management charges?
+- Which locations does ASV serve?
+- Can I contact ASV from overseas?
+- How do I get started?
+
+Answers must be consistent with ASV's actual services and terms.
+
+Do not invent commitments.
+
+## 25. Consultation section
+
+Create a high-conversion consultation section near the bottom of the homepage.
+
+Use a premium black or white editorial background with a red accent.
+
+Heading:
+
+**Your property deserves expert care.**
+
+Description:
+
+Tell us about your property and our team will help you understand the available management services.
+
+Create a responsive consultation form containing:
+
+- Full name.
+- Email address.
+- International phone or WhatsApp number.
+- Country of residence.
+- Property location.
+- Property type.
+- Required service.
+- Preferred contact method.
+- Optional message.
+- Privacy consent.
+
+Support international phone number formats.
+
+Make only essential fields mandatory.
+
+Include:
+
+- Client-side validation.
+- Server-side validation.
+- Loading state.
+- Error messages.
+- Accessible labels.
+- Success confirmation.
+- Duplicate submission protection.
+- Spam protection.
+- Server-side rate limiting.
+
+Use a primary CTA:
+
+**Request a Free Consultation**
+
+Do not show a success confirmation unless the enquiry has actually been submitted successfully.
+
+Connect to the existing Salesforce or approved lead management workflow if the required credentials and API access are provided.
+
+If no backend connection exists, clearly identify the missing configuration and implement a safe integration interface.
+
+Do not silently discard customer enquiries.
+
+## 26. Mobile sticky contact bar
+
+Create a compact fixed bottom contact bar on mobile.
+
+Actions:
+
+- Call.
+- WhatsApp.
+- Get a Consultation.
+
+Use actual contact information from the existing website.
+
+Ensure:
+
+- Proper mobile safe-area padding.
+- Accessible tap targets.
+- No overlap with footer content.
+- No overlap with forms.
+- No unnecessary obstruction of content.
+- Correct phone and WhatsApp links.
+
+Hide or adjust the contact bar when an interactive modal or mobile menu is open.
+
+## 27. Footer
+
+Create a sophisticated black-background corporate footer.
+
+Include:
+
+- Original ASV logo using the original approved asset.
+- Brief company description.
+- Main navigation.
+- Service links.
+- NRI property management link.
+- Contact information.
+- Business operating locations.
+- YouTube channel.
+- Approved social media links.
+- Privacy Policy.
+- Terms & Conditions.
+- Dynamic current-year copyright.
+
+The existing website mentions Bengaluru, Chennai and Hyderabad.
+
+Verify which locations are currently served before presenting them as active service areas.
+
+Do not invent office addresses, phone numbers or email addresses.
+
+## 28. Responsive design requirements
+
+The website must support:
+
+- 320px small mobile.
+- 360px mobile.
+- 375px mobile.
+- 390px modern iPhone.
+- 430px large mobile.
+- 768px tablet.
+- 1024px tablet and laptop.
+- 1280px desktop.
+- 1440px desktop.
+- 1920px large desktop.
+- Ultra-wide displays.
+
+Use fluid layouts and responsive typography.
+
+Desktop content width:
+
+Approximately 1280–1440px, depending on the section.
+
+Section spacing:
+
+- Desktop: 96–120px.
+- Tablet: 64–80px.
+- Mobile: 40–56px.
+
+Horizontal padding:
+
+- Desktop: 48–64px.
+- Tablet: 24–32px.
+- Mobile: 16–20px.
+
+Use CSS Grid and Flexbox.
+
+Ensure:
+
+- No horizontal overflow.
+- No broken layouts.
+- No clipped text.
+- No overlapping headings.
+- No distorted images.
+- No excessively small font sizes.
+- No desktop-only interactions.
+- No content hidden simply because the screen is smaller.
+- Appropriate touch targets of approximately 44px or larger.
+
+Every page must be independently tested across responsive screen sizes.
+
+## 29. Animation and interaction design
+
+Use premium, subtle animations inspired by modern architectural websites.
+
+Allowed interactions:
+
+- Gentle text entrance animations.
+- Image reveal transitions.
+- Subtle image scaling on hover.
+- Floating hero cards.
+- Soft navigation transitions.
+- Animated red underline.
+- Button arrow movement.
+- FAQ expand and collapse.
+- Mobile menu transitions.
+- Smooth anchor navigation.
+- Accessible modal transitions.
+
+Animation durations:
+
+Approximately 180–500ms for most UI interactions.
+
+Use lightweight CSS animations or a minimal animation library.
+
+Respect `prefers-reduced-motion`.
+
+Avoid:
+
+- Scroll hijacking.
+- Heavy parallax.
+- Custom mouse cursors.
+- Continuous background movement.
+- Loading-screen animations.
+- WebGL effects.
+- Heavy 3D frameworks.
+- Excessive blur.
+- Animations that block content visibility.
+
+The website must remain attractive with animations disabled.
+
+## 30. Technical architecture
+
+Use a modern production-ready React and TypeScript architecture supported by the Google AI Studio Build environment.
+
+Preferred stack:
+
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Lucide React icons.
+- Lightweight Motion library only where necessary.
+- React Router if needed.
+- Zod for validation.
+- Reusable component architecture.
+
+If the environment supports Next.js and server-side rendering, consider Next.js for improved SEO and server-side integration.
+
+Otherwise, use the supported React framework and implement appropriate prerendering, metadata and deployment strategies.
+
+Do not force an unsupported technology stack.
+
+Do not introduce unnecessary dependencies.
+
+Use proper project organization.
+
+Suggested structure:
+
+```text
+src/
+  components/
+    layout/
+      Header
+      DesktopNavigation
+      MobileNavigation
+      Footer
+      MobileContactBar
+
+    home/
+      Hero
+      TrustHighlights
+      AboutSection
+      ServicesSection
+      NRISection
+      CustomerProfiles
+      ProcessTimeline
+      WhyChooseASV
+      ValueAddedServices
+      ProjectsSection
+      TestimonialsSection
+      YouTubeSection
+      FAQSection
+      ConsultationSection
+
+    ui/
+      Button
+      SectionHeading
+      Container
+      GlassCard
+      ImageCard
+      VideoCard
+      Modal
+      Accordion
+      Input
+      Select
+      LoadingState
+      ErrorState
+
+  pages/
+    Home
+    About
+    Services
+    NRIPropertyManagement
+    HowItWorks
+    Projects
+    Pricing
+    Insights
+    Contact
+    PrivacyPolicy
+    TermsAndConditions
+
+  data/
+    services
+    projects
+    testimonials
+    pricing
+    faqs
+    company
+
+  services/
+    youtube
+    consultation
+    crm
+
+  hooks/
+  types/
+  utils/
+  styles/
+  assets/
+```
+
+Use strongly typed interfaces.
+
+Keep business content separate from presentation components.
+
+Avoid duplicated content and repeated hardcoded information.
+
+Create reusable components and global design tokens.
+
+## 31. Performance optimization
+
+Performance is a mandatory requirement.
+
+Target Lighthouse scores:
+
+- Performance: 95 or higher.
+- Accessibility: 95 or higher.
+- Best Practices: 95 or higher.
+- SEO: 95 or higher.
+
+Core Web Vitals targets:
+
+- LCP: 2.5 seconds or less.
+- INP: 200ms or less.
+- CLS: 0.1 or less.
+
+Implement:
+
+- Responsive image sizes.
+- WebP and AVIF where appropriate.
+- Optimized hero image loading.
+- Image dimensions to prevent layout shifts.
+- Lazy loading for below-the-fold images.
+- Route-based code splitting.
+- Minimal JavaScript.
+- Optimized font loading.
+- Cached YouTube metadata.
+- Deferred third-party scripts.
+- Efficient CSS.
+- CDN-friendly static assets.
+- Production build optimization.
+- Minimal client-side hydration where supported.
+
+Do not lazy-load the primary above-the-fold hero image.
+
+Do not embed large base64 images directly in source files.
+
+Do not use unnecessary external libraries.
+
+Measure actual performance before claiming the targets have been achieved.
+
+## 32. SEO requirements
+
+Implement complete technical and on-page SEO.
+
+Primary keywords:
+
+- Property management Bangalore.
+- Property management Bengaluru.
+- NRI property management Bangalore.
+- Rental property management Bangalore.
+- Tenant management services Bangalore.
+- Property maintenance Bangalore.
+- Property management services for NRIs.
+- Manage property in India from abroad.
+
+Homepage title:
+
+Property Management in Bangalore for NRIs | ASV Property Management
+
+Homepage description:
+
+Professional property management services in Bengaluru for NRIs and homeowners. Tenant placement, rent coordination, property inspections, maintenance and documentation support.
+
+Implement:
+
+- Unique metadata for every page.
+- Correct heading hierarchy.
+- Semantic HTML.
+- Canonical URLs.
+- Open Graph tags.
+- Social sharing previews.
+- Sitemap.xml.
+- Robots.txt.
+- Descriptive image alt text.
+- Internal links.
+- Search-friendly route names.
+- Structured organization and local business data using verified information.
+- Breadcrumb structured data where appropriate.
+- Relevant service structured data.
+- Legacy URL redirects.
+
+Do not add fake reviews or misleading structured data.
+
+Preserve the existing domain and existing valuable URL paths wherever possible.
+
+## 33. Accessibility requirements
+
+Target WCAG 2.2 AA accessibility.
+
+Implement:
+
+- Semantic HTML.
+- Proper landmark regions.
+- Logical heading hierarchy.
+- Keyboard navigation.
+- Visible focus indicators.
+- Accessible dropdown menus.
+- Accessible mobile navigation.
+- Proper modal focus management.
+- Form labels.
+- Descriptive error messages.
+- Appropriate text contrast.
+- Reduced-motion support.
+- Meaningful image alternative text.
+- Accessible video controls.
+- Skip-to-content navigation.
+
+Do not rely exclusively on red colour to communicate error or selection states.
+
+## 34. Security and privacy
+
+Implement appropriate production security measures.
+
+Requirements:
+
+- Keep API credentials server-side.
+- Do not commit secrets.
+- Provide an example environment configuration file.
+- Sanitize and validate user inputs.
+- Prevent spam submissions.
+- Apply server-side rate limiting.
+- Avoid exposing customer data.
+- Avoid logging sensitive form information.
+- Use HTTPS in production.
+- Configure appropriate security headers.
+- Apply a suitable Content Security Policy.
+- Include privacy consent.
+- Avoid unnecessary third-party tracking.
+
+Example configuration:
+
+```env
+YOUTUBE_API_KEY=
+YOUTUBE_CHANNEL_ID=UCAeG716AYl4M5QXXxsXWa2w
+SITE_URL=https://asvpropertymanagement.com
+CRM_API_URL=
+CRM_API_TOKEN=
+```
+
+Only add environment variables required by the actual chosen architecture.
+
+Do not place private credentials in client-exposed environment variables.
+
+## 35. Content management
+
+Make website content maintainable without editing every UI component.
+
+Separate structured data for:
+
+- Company details.
+- Services.
+- Projects.
+- Testimonials.
+- Pricing.
+- FAQ.
+- Contact information.
+- Navigation.
+- SEO metadata.
+- Social media links.
+
+YouTube videos should update automatically when the integration is configured.
+
+Use a lightweight CMS only if the deployment environment and business requirements justify it.
+
+Do not introduce a complex administration portal unnecessarily.
+
+## 36. Testing requirements
+
+Act as a senior QA automation engineer.
+
+Perform functional, responsive, accessibility and regression testing.
+
+Test:
+
+- All website routes.
+- All navigation links.
+- Desktop navigation.
+- Mobile hamburger menu.
+- Services dropdown.
+- Consultation CTAs.
+- Form validation.
+- International phone number handling.
+- Successful and unsuccessful form submissions.
+- Duplicate submission prevention.
+- WhatsApp links.
+- Telephone links.
+- FAQ accordion.
+- Process timeline.
+- Testimonial navigation.
+- Project gallery.
+- YouTube video loading.
+- YouTube API failure handling.
+- Video modal.
+- Loading states.
+- Empty states.
+- Error states.
+- Keyboard navigation.
+- Mobile sticky contact bar.
+- Layout at all specified breakpoints.
+- Broken images.
+- Broken links.
+- Browser console errors.
+- Accessibility.
+- Performance.
+
+Use Playwright or equivalent browser automation where supported.
+
+Test Chromium, Firefox and WebKit where available.
+
+Perform a visual comparison against the attached architectural reference and the proposed ASV desktop/mobile mockup.
+
+Inspect the website at 390px and 1440px as primary design review sizes.
+
+Do not claim testing was performed if the environment does not support it.
+
+## 37. Mandatory visual quality review
+
+Before completing the implementation, inspect every page.
+
+Ensure:
+
+- The website looks premium.
+- The hero resembles the architectural reference.
+- Original branding remains recognizable.
+- Typography is consistent.
+- White space is intentional.
+- Photographs are high quality.
+- Red accents are controlled.
+- Section layouts have visual variety.
+- Navigation looks professional.
+- Desktop and mobile designs are equally polished.
+- Content is clear for international customers.
+- No unfinished placeholder sections are visible.
+- No fake statistics are present.
+- No broken links are present.
+- Buttons perform their intended actions.
+- The website does not look like a generic AI-generated template.
+
+If any section looks generic or visually weak, refine it before completing the project.
+
+## 38. Homepage section order
+
+Implement the homepage in the following order:
+
+1. Premium sticky navigation.
+2. Architectural hero.
+3. Trust and service highlights.
+4. About ASV.
+5. Core property management services.
+6. Dedicated NRI property management section.
+7. Customer profiles.
+8. How We Work timeline.
+9. Why Choose ASV.
+10. Value Added Services.
+11. Projects Under Management.
+12. Customer testimonials.
+13. Latest YouTube videos.
+14. Frequently asked questions.
+15. Consultation form.
+16. Corporate footer.
+17. Mobile sticky contact bar.
+
+Use appropriate editorial grouping to avoid making the page unnecessarily long or repetitive.
+
+## 39. Implementation workflow
+
+Follow this implementation sequence:
+
+Phase 1: Analyze all uploaded references and existing website content.
+
+Phase 2: Create the global design system, typography, colours, spacing and shared components.
+
+Phase 3: Build the architectural hero and responsive navigation.
+
+Phase 4: Implement the complete homepage.
+
+Phase 5: Implement all additional website pages.
+
+Phase 6: Implement real integrations where credentials and infrastructure are available.
+
+Phase 7: Optimize performance, accessibility and SEO.
+
+Phase 8: Execute functional and responsive testing.
+
+Phase 9: Perform visual quality review and fix identified issues.
+
+Phase 10: Prepare deployment instructions and final project documentation.
+
+Do not stop after implementing only the homepage.
+
+Do not stop after generating a plan.
+
+Make reasonable technical decisions and continue implementation without unnecessary clarification requests.
+
+For business information that cannot be verified, avoid invented content and clearly identify what must be confirmed.
+
+## 40. Final deliverables
+
+Provide:
+
+- Complete working website.
+- Responsive desktop interface.
+- Responsive tablet interface.
+- Responsive mobile interface.
+- Reusable design system.
+- All required pages.
+- Functional navigation.
+- Consultation form implementation.
+- YouTube integration or clearly configured integration adapter.
+- Structured business content.
+- SEO implementation.
+- Accessibility implementation.
+- Production build configuration.
+- Environment configuration example.
+- README documentation.
+- Deployment instructions.
+- Testing summary.
+- Known limitations.
+- Required business information and credentials.
+- Final visual review.
+
+## 41. Final acceptance criteria
+
+The redesign is successful only if:
+
+- The original ASV logo is retained.
+- Red, black and white branding is retained.
+- The hero closely follows the attached premium architectural design direction.
+- Both desktop and mobile layouts look intentionally designed.
+- Existing business services and content are preserved.
+- Outdated diagrams and cards are completely redesigned.
+- The website clearly communicates its purpose to NRI customers.
+- Navigation is functional.
+- Customer enquiries are handled correctly when configured.
+- YouTube videos automatically update when configured.
+- All important sections are present.
+- The website is fast and accessible.
+- No fabricated claims are published.
+- No critical responsive or functional issues remain.
+
+FINAL DESIGN DIRECTION:
+
+Premium Architecture × Editorial Typography × Minimal Corporate Design × Subtle Glassmorphism × Original ASV Branding.
+
+Build a visually exceptional, professional and production-ready ASV Property Management website.
+
+Start implementing the actual website now.

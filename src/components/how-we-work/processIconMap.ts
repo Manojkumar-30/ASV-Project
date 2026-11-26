@@ -1,0 +1,37 @@
+import {
+  BarChart3,
+  CalendarCheck,
+  ChartNoAxesCombined,
+  ClipboardCheck,
+  FileCheck,
+  FileSignature,
+  Handshake,
+  House,
+  KeyRound,
+  Megaphone,
+  RefreshCw,
+  SearchCheck,
+  ShieldCheck,
+  UserCheck,
+  Wrench,
+  type LucideIcon,
+} from 'lucide-react';
+import type { ProcessStepIcon } from '../../types';
+
+export const PROCESS_ICON_MAP: Record<ProcessStepIcon, LucideIcon> = {
+  'file-signature': FileSignature,
+  'key-round': KeyRound,
+  megaphone: Megaphone,
+  'user-check': UserCheck,
+  handshake: Handshake,
+  home: House,
+  'clipboard-check': ClipboardCheck,
+  wrench: Wrench,
+  'search-check': SearchCheck,
+  'bar-chart': BarChart3,
+  'refresh-cw': RefreshCw,
+  'shield-check': ShieldCheck,
+  'calendar-check': CalendarCheck,
+  'chart-combined': ChartNoAxesCombined,
+  'file-check': FileCheck,
+};
